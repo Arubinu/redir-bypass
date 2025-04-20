@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  redirector:
+    build: .
+    container_name: redir-bypass
+    ports:
+      - "443:443"
+    volumes:
+      - redirector-data:/app
+    restart: unless-stopped
+
+volumes:
+  redirector-data:

@@ -1,0 +1,11 @@
+{
+  "name": "redir-bypass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Alvin Pergens",
+  "license": "",
+  "description": "A minimal HTTPS redirection service to bypass ad/tracking links and go straight to the target URL."
+}
